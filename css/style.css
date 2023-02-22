@@ -81,8 +81,8 @@ nav a:focus{
   /* Requirement 9 code here -- Do not remove this comment. */
 
   /* .about-text, .clients-text, .method-text, .contact-text */
-  text{
-    align-items: center;
+  .text{
+    align-self: center;
     max-height: 40vh;
     overflow: scroll;
   }
@@ -136,7 +136,8 @@ nav a:focus{
 
   /* Requirement 15 code here -- Do not remove this comment. */
   .about-image, .clients-image, .method-image, .contact-image{
-    max-height: 300px;
+    /* max-height: 300px; */
+    overflow: hidden;
   }
 }
 
