@@ -36,7 +36,7 @@ nav a:focus{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  fallback: #858585;
+  background-color: #858585;
   min-height: 400px;
 }
 
@@ -110,7 +110,7 @@ nav a:focus{
   
   /* Requirement 11 code here -- Do not remove this comment. */
 
-  a.skip{
+  a.skip:focus{
     left: auto;
     top: 20px;
   }
